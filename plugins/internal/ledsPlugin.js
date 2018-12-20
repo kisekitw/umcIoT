@@ -1,4 +1,5 @@
 const resources = require('./../../resources/model');
+require('./../../node_modules/object.observe/dist/object-observe-lite');
 
 var actuator, interval;
 var model = resources.pi.actuators.leds['1'];

@@ -13,7 +13,8 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "msgpack5": "^4.2.1",
-    "node-json2html": "^1.2.0"
+    "node-json2html": "^1.2.0",
+    "object.observe": "^0.2.6"
   },
   "optionalDependencies": {
     "onoff": "^3.2.2",
