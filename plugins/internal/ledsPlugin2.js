@@ -1,8 +1,8 @@
-const resources = require('./../../resources/model');
-require('./../../node_modules/object.observe/dist/object-observe-lite');
+const resources = require('../../resources/model');
+require('object.observe/dist/object-observe-lite');
 
 var actuator, interval;
-var model = resources.pi.actuators.leds['1'];
+var model = resources.pi.actuators.leds['2'];
 var pluginName = model.name;
 var localParams = {
     'simulate': false,
