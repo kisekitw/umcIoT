@@ -5,8 +5,8 @@ const httpServer = require('./servers/http'),
 
 
 dhtPlugin.start({
-    'simulate': true,
-    'frequency': 2000
+    'simulate': false,
+    'frequency': 5000
 });
 ledPlugin.start({
     'simulate': false,
